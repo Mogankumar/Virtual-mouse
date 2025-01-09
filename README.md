@@ -11,21 +11,21 @@ This project implements a Virtual Mouse using computer vision and hand gesture r
 
  **How It Works**
 1. Hand Detection:
-	•Uses a hand tracking module to detect landmarks of the hand.
-	•Identifies the index finger, middle finger, and thumb for specific gestures.
+•Uses a hand tracking module to detect landmarks of the hand.
+•Identifies the index finger, middle finger, and thumb for specific gestures.
 2. Gesture Recognition:
-	•Single Index Finger Up: Moves the cursor on the screen.
-	•Pinch Gesture: Performs a left-click when the distance between the index and middle fingers is less than a threshold.
-	•Thumb and Index Finger Gesture: Scrolls up or down.
-	•Specific Gesture: Captures a screenshot.
+•Single Index Finger Up: Moves the cursor on the screen.
+•Pinch Gesture: Performs a left-click when the distance between the index and middle fingers is less than a threshold.
+•Thumb and Index Finger Gesture: Scrolls up or down.
+•Specific Gesture: Captures a screenshot.
 3. Mouse Control:
-  	•Cursor movements are smoothed for better accuracy.
-  	•Mouse control and clicks are performed using the autopy and PyAutoGUI libraries.
+•Cursor movements are smoothed for better accuracy.
+•Mouse control and clicks are performed using the autopy and PyAutoGUI libraries.
 
 **Example Gestures**
    
 **Gesture	                                Action**
-Index finger up	                        Move cursor
-Index + Middle fingers pinched	        Left click
-Thumb + Index	                          Scroll up/down
-All fingers out (specific gesture)	    Capture screenshot
+1. Index finger up	                        Move cursor
+2. Index + Middle fingers pinched	        Left click
+3. Thumb + Index	                          Scroll up/down
+4. All fingers out (specific gesture)	    Capture screenshot
