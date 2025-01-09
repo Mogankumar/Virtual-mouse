@@ -25,7 +25,7 @@ This project implements a Virtual Mouse using computer vision and hand gesture r
 **Example Gestures**
    
 **Gesture	                                Action**
-1. Index finger up	                        Move cursor
-2. Index + Middle fingers pinched	        Left click
-3. Thumb + Index	                          Scroll up/down
-4. All fingers out (specific gesture)	    Capture screenshot
+1. Index finger up	                        - Move cursor
+2. Index + Middle fingers pinched	        - Left click
+3. Thumb + Index	                          - Scroll up/down
+4. All fingers out (specific gesture)	    - Capture screenshot
